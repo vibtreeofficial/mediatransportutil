@@ -30,8 +30,8 @@ import (
 	"github.com/pion/webrtc/v4"
 
 	"github.com/vibtreeofficial/mediatransportutil/pkg/transport"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/logger/pionlogger"
+	"github.com/vibtreeofficial/protocol/logger"
+	"github.com/vibtreeofficial/protocol/logger/pionlogger"
 )
 
 type WebRTCConfig struct {

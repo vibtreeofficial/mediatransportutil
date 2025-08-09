@@ -25,7 +25,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/vibtreeofficial/protocol/logger"
 )
 
 const (

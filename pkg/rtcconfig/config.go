@@ -22,7 +22,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/vibtreeofficial/protocol/logger"
 )
 
 const (

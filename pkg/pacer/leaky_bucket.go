@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/gammazero/deque"
-	"github.com/livekit/protocol/logger"
+	"github.com/vibtreeofficial/protocol/logger"
 )
 
 const (

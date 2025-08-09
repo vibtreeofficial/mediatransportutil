@@ -15,7 +15,7 @@
 package pacer
 
 import (
-	"github.com/livekit/protocol/logger"
+	"github.com/vibtreeofficial/protocol/logger"
 )
 
 type PassThrough struct {

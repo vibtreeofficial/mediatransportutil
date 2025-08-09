@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"github.com/gammazero/deque"
-	"github.com/livekit/protocol/logger"
+	"github.com/vibtreeofficial/protocol/logger"
 )
 
 type NoQueue struct {
