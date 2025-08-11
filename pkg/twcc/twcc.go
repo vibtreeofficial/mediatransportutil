@@ -49,6 +49,10 @@ func NewTransportWideCCResponder() *Responder {
 
 // Push a sequence number read from rtp packet ext packet
 func (t *Responder) Push(ssrc uint32, sn uint16, timeNS int64, marker bool) {
+	if ssrc == 0 {
+		return
+	}
+	
 	t.Lock()
 	defer t.Unlock()
 
